@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <title>Yandex Task</title>
+</head>
+<body>
+  <form action="success.json" id="myForm"> <!-- remove 'action' attribute to do requests to random urls (success|progress|error) -->
+    <input type="text" placeholder="ФИО"     name="fio"   />
+    <input type="text" placeholder="Email"   name="email" />
+    <input type="text" placeholder="Телефон" name="phone" />
+    <input type="submit" id="submitButton" />
+  </form>
+  <div id="resultContainer"></div>
+  <script src="index.js"></script>
+</body>
+</html>

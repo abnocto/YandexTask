@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#myForm input {
+  display: block;
+  margin: 10px;
+}
+
+#resultContainer {
+  height: 20px;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+.success { 
+  border: 1px solid green !important;
+}
+
+.progress {
+  border: 1px solid yellow !important;
+}
+
+.error {
+  border: 1px solid red !important;
+}
